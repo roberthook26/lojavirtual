@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f1f3ef" />
+    <meta name="description" content="Assistência técnica especializada em computadores e notebooks em Manaus. Agende formatação, upgrade, limpeza e reparos pelo WhatsApp." />
+    <title>NorteByte | Seu computador no ritmo certo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="NorteByte, início">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+        <span>Norte<span class="brand-accent">Byte</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#sobre">A assistência</a>
+      </nav>
+      <a class="header-cta" href="#agendar">Agendar serviço <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Atendimento em Manaus e Envira-AM</p>
+          <h1>Seu computador<br />no <span>ritmo certo.</span></h1>
+          <p class="hero-description">Cuidado de verdade para seu notebook ou PC. Do ajuste que destrava o dia ao reparo que devolve tudo ao lugar.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#agendar">Encontrar uma solução <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#servicos">Conheça os serviços <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="proof-avatars" aria-hidden="true"><span>NB</span><span>AM</span><span>+</span></div>
+            <p><strong>Atendimento próximo,</strong><br />do primeiro contato à entrega.</p>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img class="hero-image" src="imag/principal.jpg" alt="Computador gamer com monitor, teclado, mouse e fone de ouvido" />
+          <div class="image-stamp"><span class="stamp-icon" aria-hidden="true">✳</span><span>Diagnóstico<br />sem complicação</span></div>
+          <div class="hero-note"><span class="note-line"></span><span>Seu equipamento<br />merece atenção.</span></div>
+        </div>
+        <a class="scroll-cue" href="#servicos" aria-label="Rolar para ver os serviços"><span></span> Role para explorar</a>
+      </section>
+
+      <section class="service-section section-pad" id="servicos">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">O que está pegando?</p>
+            <h2>Tem solução.<br /><span>Vamos achar.</span></h2>
+          </div>
+          <p class="section-intro">Serviços para manter seu equipamento rápido, seguro e pronto para acompanhar você.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card service-card-featured">
+            <div class="service-top"><span class="service-number">01 / SISTEMA</span><span class="service-icon" aria-hidden="true">↻</span></div>
+            <h3>Formatação<br />& instalação</h3>
+            <p>Sistema operacional, drivers e programas essenciais instalados com cuidado.</p>
+            <a href="#agendar" data-service="format" class="service-link" aria-label="Agendar formatação e instalação">Agendar <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-top"><span class="service-number">02 / PERFORMANCE</span><span class="service-icon" aria-hidden="true">↗</span></div>
+            <h3>Upgrade<br />inteligente</h3>
+            <p>Mais velocidade e espaço com upgrade de memória RAM e SSD.</p>
+            <a href="#agendar" data-service="upgrade" class="service-link" aria-label="Agendar upgrade">Agendar <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-top"><span class="service-number">03 / CUIDADO</span><span class="service-icon" aria-hidden="true">✳</span></div>
+            <h3>Limpeza<br />& refrigeração</h3>
+            <p>Limpeza interna e troca de pasta térmica para controlar o aquecimento.</p>
+            <a href="#agendar" data-service="cleaning" class="service-link" aria-label="Agendar limpeza interna">Agendar <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-top"><span class="service-number">04 / REPARO</span><span class="service-icon" aria-hidden="true">⌁</span></div>
+            <h3>Troca de<br />componentes</h3>
+            <p>Substituição de peças danificadas após avaliação do equipamento.</p>
+            <a href="#agendar" data-service="parts" class="service-link" aria-label="Agendar troca de componentes">Agendar <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="service-card service-card-wide">
+            <div class="service-top"><span class="service-number">05 / NOTEBOOK</span><span class="service-icon" aria-hidden="true">⌘</span></div>
+            <h3>Dobradiça & carcaça</h3>
+            <p>Reparo de estrutura, dobradiças e carcaça de notebook para abrir e fechar com segurança.</p>
+            <a href="#agendar" data-service="hinges" class="service-link" aria-label="Agendar reparo de notebook">Agendar <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="service-card service-card-callout">
+            <span class="callout-mark" aria-hidden="true">✳</span>
+            <p>Não sabe exatamente o que precisa?</p>
+            <a href="#agendar">Conta pra gente. <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <p class="service-footnote">Cada equipamento é único. O serviço e o orçamento são confirmados após avaliação.</p>
+      </section>
+
+      <section class="products-section section-pad" id="produtos">
+        <div class="section-heading products-heading">
+          <div>
+            <p class="eyebrow">Peças e acessórios</p>
+            <h2>Monte, atualize<br />ou <span>conecte.</span></h2>
+          </div>
+          <p class="section-intro">Componentes e acessórios para seu setup. Consulte preço, disponibilidade e compatibilidade pelo WhatsApp.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card"><div class="product-photo"><img src="imag/placa%20m%C3%A3e.webp" alt="Placa-mãe de computador" loading="lazy" /><span class="product-category">COMPONENTES</span></div><h3>Placa-mãe</h3><p>Opções para diferentes configurações.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Placa-mãe">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img src="imag/processador.webp" alt="Processador de computador" loading="lazy" /><span class="product-category">COMPONENTES</span></div><h3>Processador</h3><p>Consulte modelos e compatibilidade.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Processador">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img src="imag/memoria%20ram.webp" alt="Módulos de memória RAM" loading="lazy" /><span class="product-category">COMPONENTES</span></div><h3>Memória RAM</h3><p>Capacidades para PC e notebook.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Memória RAM">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img class="photo-fit-contain" src="imag/coller.webp" alt="Cooler para computador" loading="lazy" /><span class="product-category">REFRIGERAÇÃO</span></div><h3>Cooler</h3><p>Consulte opções para seu equipamento.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Cooler">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img class="photo-fit-contain" src="imag/fonte%20.webp" alt="Fonte de alimentação para computador" loading="lazy" /><span class="product-category">COMPONENTES</span></div><h3>Fonte</h3><p>Modelos conforme a necessidade do PC.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Fonte para computador">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img src="imag/gabinete-gamer-superframe-cube-mid-tower-vidro-temperado-atx-black-sem-fonte-com-10-fans-argb_162447.webp" alt="Gabinete gamer preto com iluminação" loading="lazy" /><span class="product-category">COMPONENTES</span></div><h3>Gabinete</h3><p>Consulte formatos e disponibilidade.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Gabinete">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img class="photo-fit-contain" src="imag/ssd.jpg" alt="Unidade de armazenamento SSD" loading="lazy" /><span class="product-category">ARMAZENAMENTO</span></div><h3>SSD</h3><p>Mais espaço e agilidade para seu PC.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="SSD">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img class="photo-fit-contain" src="imag/cabo%20de%20for%C3%A7a.webp" alt="Cabo de força para computador" loading="lazy" /><span class="product-category">CABOS</span></div><h3>Cabo de força</h3><p>Para conectar seu equipamento à energia.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Cabo de força">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img class="photo-fit-contain" src="imag/cabo%20vga.jpg" alt="Cabo VGA" loading="lazy" /><span class="product-category">CABOS</span></div><h3>Cabo VGA</h3><p>Conexão de vídeo para monitores compatíveis.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Cabo VGA">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img class="photo-fit-contain" src="imag/cabo%20de%20dados%20para%20ssd.jpeg" alt="Cabo de dados para SSD" loading="lazy" /><span class="product-category">CABOS</span></div><h3>Cabo de dados SATA</h3><p>Conexão para SSD e HD SATA.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Cabo de dados SATA para SSD">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img class="photo-fit-contain" src="imag/bateria%20da%20bios.jpeg" alt="Bateria de BIOS tipo moeda" loading="lazy" /><span class="product-category">COMPONENTES</span></div><h3>Bateria da BIOS</h3><p>Consulte o modelo adequado para sua placa.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Bateria da BIOS">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo product-photo-pair"><img class="photo-fit-contain" src="imag/teclado.webp" alt="Teclado para computador" loading="lazy" /><img class="photo-fit-contain" src="imag/mouse.jpeg" alt="Mouse para computador" loading="lazy" /><span class="product-category">PERIFÉRICOS</span></div><h3>Teclado e mouse</h3><p>Kits para completar sua estação de trabalho.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Kit de teclado e mouse">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img class="photo-fit-contain" src="imag/fone.avif" alt="Fone de ouvido over-ear preto" loading="lazy" /><span class="product-category">PERIFÉRICOS</span></div><h3>Fones de ouvido</h3><p>Consulte modelos e conexões disponíveis.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Fones de ouvido">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img class="photo-fit-contain" src="imag/cabo%20hdmi.webp" alt="Cabo HDMI" loading="lazy" /><span class="product-category">CABOS</span></div><h3>Cabo HDMI</h3><p>Para conectar telas e dispositivos compatíveis.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Cabo HDMI">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+          <article class="product-card"><div class="product-photo"><img class="photo-fit-contain" src="imag/pendriver.jpg" alt="Pen drive USB" loading="lazy" /><span class="product-category">ACESSÓRIOS</span></div><h3>Pen drive</h3><p>Armazenamento portátil. Consulte capacidades.</p><a class="product-link" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" data-product="Pen drive">Consultar no WhatsApp <span aria-hidden="true">↗</span></a></article>
+        </div>
+        <p class="products-footnote">Itens sujeitos a disponibilidade. Confirme preço e compatibilidade antes da compra.</p>
+      </section>
+
+      <section class="process-section section-pad" id="como-funciona">
+        <div class="process-image-wrap">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1100&q=85" alt="Placa de circuito eletrônico em detalhe" loading="lazy" />
+          <div class="image-caption"><span class="caption-dot"></span> Técnica cuidadosa. Conversa direta.</div>
+        </div>
+        <div class="process-copy">
+          <p class="eyebrow">Sem mistério, sem enrolação</p>
+          <h2>Do primeiro oi<br />à solução.</h2>
+          <div class="steps-list">
+            <div class="step"><span class="step-index">01</span><div><h3>Você chama</h3><p>Conte o que aconteceu pelo WhatsApp. A gente começa entendendo.</p></div></div>
+            <div class="step"><span class="step-index">02</span><div><h3>Avaliamos</h3><p>Combinamos o atendimento e avaliamos o equipamento antes de propor o serviço.</p></div></div>
+            <div class="step"><span class="step-index">03</span><div><h3>Você aprova</h3><p>Explicamos a solução e o orçamento. O reparo só segue com sua autorização.</p></div></div>
+          </div>
+          <a class="button button-lime" href="#agendar">Começar pelo WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="about-band" id="sobre">
+        <div class="about-mark" aria-hidden="true">NB<span>.</span></div>
+        <div class="about-copy"><p class="eyebrow">Tecnologia com jeito local</p><h2>Manaus é nossa casa.<br />Seu equipamento também merece cuidado.</h2></div>
+        <p class="about-detail">Atendimento em Manaus-AM e Envira-AM<br /><span>Agendamento direto, conversa sem complicação.</span></p>
+      </section>
+
+      <section class="booking-section section-pad" id="agendar">
+        <div class="booking-heading">
+          <p class="eyebrow"><span class="status-dot"></span> A gente está a uma mensagem</p>
+          <h2>Vamos colocar<br />tudo <span>em ordem?</span></h2>
+          <p>Preencha o básico e continue seu agendamento no WhatsApp. Sem compromisso.</p>
+          <div class="contact-direct"><span class="whatsapp-icon" aria-hidden="true">◔</span><div><small>Prefere chamar direto?</small><a href="https://wa.me/5548998409515" target="_blank" rel="noreferrer">+55 48 99840-9515 <span aria-hidden="true">↗</span></a></div></div>
+        </div>
+        <form class="booking-form" id="booking-form">
+          <label for="customer-name">Como podemos te chamar?</label>
+          <input id="customer-name" name="name" autocomplete="name" placeholder="Seu nome" required />
+          <label for="customer-city">Em qual cidade você está?</label>
+          <select id="customer-city" name="city" required>
+            <option value="" disabled selected>Selecione sua cidade</option>
+            <option>Manaus-AM</option>
+            <option>Envira-AM</option>
+          </select>
+          <label for="service-select">O que seu equipamento precisa?</label>
+          <select id="service-select" name="service" required>
+            <option value="" disabled selected>Selecione um serviço</option>
+            <option value="format">Formatação e instalação de sistema, drivers ou programas</option>
+            <option value="upgrade">Upgrade de memória RAM ou SSD</option>
+            <option value="cleaning">Limpeza interna</option>
+            <option value="thermal-paste">Troca de pasta térmica</option>
+            <option value="parts">Troca de peça ou componente danificado</option>
+            <option value="hinges">Reparo de dobradiça ou carcaça de notebook</option>
+            <option value="help">Preciso de ajuda para identificar</option>
+          </select>
+          <label for="device-details">Um pouco mais sobre o problema <span>(opcional)</span></label>
+          <textarea id="device-details" name="details" rows="3" placeholder="Ex.: meu notebook está esquentando muito..."></textarea>
+          <button class="button button-dark booking-submit" type="submit">Continuar no WhatsApp <span aria-hidden="true">↗</span></button>
+          <p class="form-note">A conversa será aberta no WhatsApp para você confirmar o envio.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span><span>Norte<span class="brand-accent">Byte</span></span></a>
+      <p>Assistência técnica de computadores e notebooks<br />Manaus-AM e Envira-AM</p>
+      <a class="footer-contact" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer">WhatsApp <span>+55 48 99840-9515</span></a>
+      <span class="copyright">© <span id="current-year"></span> NorteByte</span>
+    </footer>
+    <a class="floating-whatsapp" href="https://wa.me/5548998409515" target="_blank" rel="noreferrer" aria-label="Falar com a NorteByte pelo WhatsApp"><span aria-hidden="true">◔</span></a>
+  </body>
+</html>
