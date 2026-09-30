@@ -38,7 +38,7 @@ bookingForm.addEventListener("submit", (event) => {
   const formData = new FormData(bookingForm);
   const name = formData.get("name").toString().trim();
   const city = formData.get("city").toString();
-  const service = formData.get("service").toString();
+  const service = serviceSelect.selectedOptions[0].textContent.trim();
   const details = formData.get("details").toString().trim();
   const message = [
     "Olá! Vim pelo site da NorteByte e gostaria de agendar um atendimento.",
