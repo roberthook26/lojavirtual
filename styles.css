@@ -24,9 +24,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .site-header { height: 82px; padding: 0 7.2%; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(25,35,31,.09); position: relative; z-index: 5; }
 .brand { display: inline-flex; align-items: center; gap: 10px; font: 800 20px "Manrope", sans-serif; letter-spacing: 0; }
 .brand-accent { color: #668d18; }
-.brand-mark { width: 22px; height: 22px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 3px; transform: rotate(-8deg); }
-.brand-mark span { background: var(--ink); border-radius: 2px; }
-.brand-mark span:nth-child(2), .brand-mark span:nth-child(3) { background: var(--coral); }
+.brand-mark { width: 34px; height: 34px; flex: 0 0 34px; background: url("imag/logo.jpg") -14px -7px / 62px 62px no-repeat; mix-blend-mode: multiply; }
 .main-nav { display: flex; gap: clamp(22px, 3.5vw, 54px); margin-left: 65px; }
 .main-nav a, .header-cta { font-size: 13px; font-weight: 600; }
 .main-nav a { color: #4e5952; transition: color .2s; }
@@ -165,7 +163,7 @@ h1, h2, h3 { font-family: "Manrope", sans-serif; letter-spacing: 0; }
 
 .site-footer { min-height: 115px; padding: 25px 7.2%; display: flex; align-items: center; gap: 4%; border-top: 1px solid var(--line); }
 .footer-brand { font-size: 17px; }
-.footer-brand .brand-mark { width: 18px; height: 18px; }
+.footer-brand .brand-mark { width: 26px; height: 26px; flex-basis: 26px; background-size: 47px 47px; background-position: -11px -5px; }
 .site-footer > p { margin: 0 auto 0 0; color: #788078; font-size: 10px; line-height: 1.6; }
 .footer-contact { display: flex; flex-direction: column; gap: 4px; color: #8a928b; font-size: 9px; }
 .footer-contact span { color: var(--ink); font-size: 11px; font-weight: 700; }
